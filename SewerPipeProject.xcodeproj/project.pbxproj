@@ -11,6 +11,7 @@
 		55EEB0DA1B607EAD00C95480 /* libopencv_highgui.2.4.11.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 55EEB0D71B607EAD00C95480 /* libopencv_highgui.2.4.11.dylib */; };
 		55EEB0DB1B607EAD00C95480 /* libopencv_imgproc.2.4.11.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 55EEB0D81B607EAD00C95480 /* libopencv_imgproc.2.4.11.dylib */; };
 		55EEB0DC1B607EAD00C95480 /* libopencv_core.2.4.11.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 55EEB0D91B607EAD00C95480 /* libopencv_core.2.4.11.dylib */; };
+		55EEB0E21B60810B00C95480 /* thCreatePanoramaMovie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55EEB0E01B60810B00C95480 /* thCreatePanoramaMovie.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		55EEB0D71B607EAD00C95480 /* libopencv_highgui.2.4.11.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.2.4.11.dylib; path = ../../../../../../usr/local/Cellar/opencv/2.4.11_1/lib/libopencv_highgui.2.4.11.dylib; sourceTree = "<group>"; };
 		55EEB0D81B607EAD00C95480 /* libopencv_imgproc.2.4.11.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.2.4.11.dylib; path = ../../../../../../usr/local/Cellar/opencv/2.4.11_1/lib/libopencv_imgproc.2.4.11.dylib; sourceTree = "<group>"; };
 		55EEB0D91B607EAD00C95480 /* libopencv_core.2.4.11.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.2.4.11.dylib; path = ../../../../../../usr/local/Cellar/opencv/2.4.11_1/lib/libopencv_core.2.4.11.dylib; sourceTree = "<group>"; };
+		55EEB0E01B60810B00C95480 /* thCreatePanoramaMovie.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = thCreatePanoramaMovie.cpp; sourceTree = "<group>"; };
+		55EEB0E11B60810B00C95480 /* thCreatePanoramaMovie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thCreatePanoramaMovie.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,8 @@
 			isa = PBXGroup;
 			children = (
 				55EEB0D01B607BB800C95480 /* main.cpp */,
+				55EEB0E01B60810B00C95480 /* thCreatePanoramaMovie.cpp */,
+				55EEB0E11B60810B00C95480 /* thCreatePanoramaMovie.h */,
 			);
 			path = SewerPipeProject;
 			sourceTree = "<group>";
@@ -131,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55EEB0D11B607BB800C95480 /* main.cpp in Sources */,
+				55EEB0E21B60810B00C95480 /* thCreatePanoramaMovie.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
