@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		55EEB0D11B607BB800C95480 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55EEB0D01B607BB800C95480 /* main.cpp */; };
+		55EEB0DA1B607EAD00C95480 /* libopencv_highgui.2.4.11.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 55EEB0D71B607EAD00C95480 /* libopencv_highgui.2.4.11.dylib */; };
+		55EEB0DB1B607EAD00C95480 /* libopencv_imgproc.2.4.11.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 55EEB0D81B607EAD00C95480 /* libopencv_imgproc.2.4.11.dylib */; };
+		55EEB0DC1B607EAD00C95480 /* libopencv_core.2.4.11.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 55EEB0D91B607EAD00C95480 /* libopencv_core.2.4.11.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		55EEB0CD1B607BB800C95480 /* SewerPipeProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SewerPipeProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		55EEB0D01B607BB800C95480 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		55EEB0D71B607EAD00C95480 /* libopencv_highgui.2.4.11.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.2.4.11.dylib; path = ../../../../../../usr/local/Cellar/opencv/2.4.11_1/lib/libopencv_highgui.2.4.11.dylib; sourceTree = "<group>"; };
+		55EEB0D81B607EAD00C95480 /* libopencv_imgproc.2.4.11.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.2.4.11.dylib; path = ../../../../../../usr/local/Cellar/opencv/2.4.11_1/lib/libopencv_imgproc.2.4.11.dylib; sourceTree = "<group>"; };
+		55EEB0D91B607EAD00C95480 /* libopencv_core.2.4.11.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.2.4.11.dylib; path = ../../../../../../usr/local/Cellar/opencv/2.4.11_1/lib/libopencv_core.2.4.11.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +38,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55EEB0DB1B607EAD00C95480 /* libopencv_imgproc.2.4.11.dylib in Frameworks */,
+				55EEB0DC1B607EAD00C95480 /* libopencv_core.2.4.11.dylib in Frameworks */,
+				55EEB0DA1B607EAD00C95480 /* libopencv_highgui.2.4.11.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +50,9 @@
 		55EEB0C41B607BB800C95480 = {
 			isa = PBXGroup;
 			children = (
+				55EEB0D71B607EAD00C95480 /* libopencv_highgui.2.4.11.dylib */,
+				55EEB0D81B607EAD00C95480 /* libopencv_imgproc.2.4.11.dylib */,
+				55EEB0D91B607EAD00C95480 /* libopencv_core.2.4.11.dylib */,
 				55EEB0CF1B607BB800C95480 /* SewerPipeProject */,
 				55EEB0CE1B607BB800C95480 /* Products */,
 			);
@@ -205,6 +217,17 @@
 		55EEB0D51B607BB800C95480 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/Cellar/opencv/2.4.11_1/include/opencv2/,
+					/usr/local/Cellar/opencv/2.4.11_1/include/,
+					/usr/local/Cellar/opencv/2.4.11_1/include/opencv/,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/opencv/2.4.11_1/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -212,6 +235,17 @@
 		55EEB0D61B607BB800C95480 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/Cellar/opencv/2.4.11_1/include/opencv2/,
+					/usr/local/Cellar/opencv/2.4.11_1/include/,
+					/usr/local/Cellar/opencv/2.4.11_1/include/opencv/,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/opencv/2.4.11_1/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -235,6 +269,7 @@
 				55EEB0D61B607BB800C95480 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

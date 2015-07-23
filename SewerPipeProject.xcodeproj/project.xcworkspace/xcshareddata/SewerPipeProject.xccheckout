@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D1E480BD-4187-4BC3-A63A-979BDD11A790</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SewerPipeProject</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>452F6C714F29A22CFCE340C8D336D9293D90D50B</key>
+		<string>https://github.com/HayashiTomoki/SewerPipeProject.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SewerPipeProject.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>452F6C714F29A22CFCE340C8D336D9293D90D50B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/HayashiTomoki/SewerPipeProject.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>452F6C714F29A22CFCE340C8D336D9293D90D50B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>452F6C714F29A22CFCE340C8D336D9293D90D50B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SewerPipeProject</string>
+		</dict>
+	</array>
+</dict>
+</plist>

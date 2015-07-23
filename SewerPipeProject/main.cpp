@@ -7,6 +7,9 @@
 //
 
 #include <iostream>
+#include <opencv2/core/core.hpp>
+#include <opencv2/highgui/highgui.hpp>
+#include <cv.h>
 
 int main(int argc, const char * argv[]) {
     // insert code here...
